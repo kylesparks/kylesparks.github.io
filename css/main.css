@@ -1,0 +1,184 @@
+/* Layout
+   ========================================================================== */
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html { font-size: 100%; }
+
+body { background: #fff; font: 1rem/1.5 "Arial", sans-serif; }
+
+a {
+  color: #4f9fCf;
+  text-decoration: none;
+}
+
+a:hover { text-decoration: underline; }
+
+/* Header
+   ========================================================================== */
+
+header { background-color: #f8f8f8; 
+        margin: 0 2em;
+        text-align: center;
+        border: solid blue .25em;
+      }
+
+.text {
+  display: block;
+  float: left;
+  width: 80%;
+  padding: 0 2em;
+}
+
+img {
+  border: solid black .1em;
+  margin: .25% 0;
+}
+
+/* Typography
+   ========================================================================== */
+
+
+/* Grid
+   ========================================================================== */
+
+.column {
+  float: left;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+  
+.column.full { width: 100%; }
+.column.two-thirds { width: 66.7%; }
+.column.half { width: 50%; }
+.column.third { width: 33.3%; }
+.column.fourth { width: 24.95%; }
+.column.flow-opposite { float: right; }
+
+/* Small screens (default) */
+html { font-size: 100%; }
+
+/* Medium screens (640px) */
+@media (min-width: 40rem) { 
+  html { font-size: 112%; }
+}
+ 
+/* Large screens (1024px) */
+@media (min-width: 64rem) { 
+  html { font-size: 120%; }
+}
+ 
+.container {
+  margin: 0 auto;
+  max-width: 48rem;
+  padding: 0 2em;
+  display: block;
+  float: left;
+}
+
+/* Posts
+   ========================================================================== */
+
+h2 {
+    background-color: green;
+    text-align: center;
+    padding: .5em;
+}
+
+h3 {
+   background-color: pink;
+    text-align: center;
+    padding: .5em;
+}
+
+.posts {
+  display: block;
+  float: left;
+  padding: 0 2em;
+  border-right: dotted black 1px;
+}
+
+.posts2 {
+  display: block;
+  float: left;
+  padding: 0 2em;
+  width: 25%;
+  border-right: solid black 1px;
+}
+
+h4 {
+  background-color: blue;
+  text-align: center;
+  padding: .5em;
+}
+
+.inlaid_img {
+  display: block;
+  float: left;
+  padding: .5em;
+  height: 100%;
+  width: 50%;
+}
+
+.inlaid_img img {
+  width: 100%;
+}
+
+/* Syntax Highlighting
+   ========================================================================== */
+
+pre, code {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+pre { padding: 1rem; }
+code { padding: .1rem .3rem; }
+pre code { border: none; }
+
+/* Footer
+   ========================================================================== */
+footer {
+  display: block;
+  margin: 2em 0;
+  text-align: center;
+}
+
+/* Clearfix
+   ========================================================================== */
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+
+
