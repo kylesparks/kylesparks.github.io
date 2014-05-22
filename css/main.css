@@ -9,48 +9,156 @@
 
 html { font-size: 100%; }
 
-body { background: #fff; font: 1rem/1.5 "Arial", sans-serif; }
-
-a {
-  color: #4f9fCf;
-  text-decoration: none;
+body { 
+  -webkit-font-smoothing: antialiased;
+  font-family: "chaparral-pro",sans-serif;
+font-style: normal;
+font-weight: 400;
 }
 
-a:hover { text-decoration: underline; }
+/* Small screens (default) */
+  html { font-size: 100%; }
+
+/* Medium screens (640px) */
+@media (min-width: 40rem) {
+  html { font-size: 125%; }
+}
+ 
+/* Large screens (1024px) */
+@media (min-width: 64rem) { 
+  html { font-size: 150%; }
+}
+ 
+
+.container {
+  width: 100%;
+  float: left;
+  position: relative;
+  padding-bottom: 2em;
+}
+
+.content {
+  width: 70%;
+  float: left;
+  margin: 0 0 0 5%;
+  max-width: 33em;
+}
+
+.sidebar {
+  font-family: "ff-tisa-web-pro",sans-serif;
+  font-size: 80%;
+  width: 20%;
+  padding: 2em;
+  float: left;
+  text-align: left;
+  max-width: 15em;
+}
+
+div#sticker {
+  right: 5%;
+}
+
+.sidepic {
+  width: 100%;
+  border-radius: 25%;
+  border: solid black 1px;
+}
+
+ ul {
+   text-align: center;
+   padding: 0em;
+ }
+
+a {
+  color: rgb(31, 83, 33);
+  text-decoration: bold;
+}
+
+a:hover { 
+  text-decoration: underline; 
+}
+
+.contactgif {
+  width: 50%;
+  margin: 0 25%;
+  border: solid black 1px;
+}
+
+.centertext {
+  text-align: center;
+  margin: 0 0 3em 0;
+}
 
 /* Header
    ========================================================================== */
 
-header { background-color: #f8f8f8; 
-        margin: 0 2em;
-        text-align: center;
-        border: solid blue .25em;
-      }
+.header { background-color: rgb(33, 52, 43); 
+/*          border: solid rgb(251,185,0) .5em;
+*/          padding: 1em 0;
+          width: 100%;
+          float: left;
+          font-style: normal;
+          font-weight: 600; font-size: 1.25em;
+          margin-bottom: 1.5em;
+        }
 
-.text {
+h1 {
+  font-family: "ff-tisa-web-pro",sans-serif;
   display: block;
   float: left;
-  width: 80%;
-  padding: 0 2em;
+  width: 75%;
+  padding: 0 1em;
+  text-align: center;
+  font-size: 1.25em;
+  margin: 1em 0;
+  color: rgb(251, 185, 0);
 }
 
-img {
+.header img {
   border: solid black .1em;
-  margin: .25% 0;
+/*  min-width: 2em;
+*/  padding: 1em auto;
+  width: 15%;
+  float: left;
+  max-width: 6em;
 }
+
+
+/* Footer
+   ========================================================================== */
+footer {
+  display: block;
+  text-align: center;
+  float: left;
+  clear: both;
+  width: 100%;
+  font-size: 60%;
+  background-color: rgb(251, 185, 0);
+  border-top: solid rgb(33, 52, 43) 1em;
+}
+
 
 /* Typography
    ========================================================================== */
 
+/* Blockquote
+   ========================================================================== */
+
+blockquote { 
+  margin: 0em 5em;
+  font-style: italic;
+}
+
+blockquote p {
+  font-weight: 300;
+}
+
+@media (min-width: 40em) {
+  blockquote { margin: 0em 5em; }
+}
 
 /* Grid
    ========================================================================== */
-
-.column {
-  float: left;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
   
 .column.full { width: 100%; }
 .column.two-thirds { width: 66.7%; }
@@ -59,67 +167,94 @@ img {
 .column.fourth { width: 24.95%; }
 .column.flow-opposite { float: right; }
 
-/* Small screens (default) */
-html { font-size: 100%; }
 
-/* Medium screens (640px) */
-@media (min-width: 40rem) { 
-  html { font-size: 112%; }
-}
+@media (max-width: 850px) {
+  h1 {
+    width: 100%;
+    margin: 0 0 .5em 0;
+    padding: 0 5%;
+  }
  
-/* Large screens (1024px) */
-@media (min-width: 64rem) { 
-  html { font-size: 120%; }
-}
+  .header img {
+    margin: 0 40%;
+    width: 20%;
+  }
  
-.container {
-  margin: 0 auto;
-  max-width: 48rem;
-  padding: 0 2em;
-  display: block;
-  float: left;
+  .posts {
+    display: block;
+  }
+
+  .content {
+    float: none;
+    width: 90%;
+    margin: 0 5%;
+  }
+
+  .sidebar {
+    position: relative !important; 
+    font-size: 1em;
+    float: none;
+    padding: 2em 0em;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;  
+  }
+
+  .sidepic {
+    display: block;
+    width: 50%;
+    margin: 0 auto;  
+    text-align: center;
+    border: solid black 1px;
+  }
+
+  div#sticker {
+    right: 0;
+  }
 }
+
 
 /* Posts
    ========================================================================== */
 
 h2 {
-    background-color: green;
     text-align: center;
-    padding: .5em;
+    padding: .5em .5em 0 .5em;
+    font-size: 180%;
+    text-transform: bold;
+    margin: 0 auto;
 }
 
 h3 {
-   background-color: pink;
-    text-align: center;
-    padding: .5em;
+  text-align: left;
+  padding: .5em .5em 0 .5em;
+  font-size: 130%;
+}
+
+p {
+  padding: 0 1em;
+  font-size: 100%;
+  text-indent: 0;
+}
+
+li {
+  font-size: 80%/1.5em;
+  list-style-type: none;
+  text-align: center;
+  padding-top: .5em;
 }
 
 .posts {
   display: block;
   float: left;
   padding: 0 2em;
-  border-right: dotted black 1px;
-}
-
-.posts2 {
-  display: block;
-  float: left;
-  padding: 0 2em;
-  width: 25%;
-  border-right: solid black 1px;
-}
-
-h4 {
-  background-color: blue;
-  text-align: center;
-  padding: .5em;
+  margin-bottom: 100px;
 }
 
 .inlaid_img {
   display: block;
   float: left;
-  padding: .5em;
+  margin: 0 2em 1em 1em;
   height: 100%;
   width: 50%;
 }
@@ -128,8 +263,45 @@ h4 {
   width: 100%;
 }
 
+.button-wrap {
+  float: left;
+/*  display: inline-block;
+*/  margin: 0 0 0 5%;
+  width: 70%;
+}
+
+.button.prev {
+    display: inline-block;
+/*    position: absolute;
+    margin-left: 11%;*/
+    text-align: left;
+}
+
+.button.next {
+    display: inline-block;
+/*    position: absolute;
+    right: 30%; */
+    text-align: right;
+}
+
+@media (max-width: 850px) {
+  .button.next {
+    right: 11%;
+  }
+}
+
+.post-date {
+  font-size: .75em;
+  display: block;
+  text-align: center;
+}
+
+/* Sidebar 
+   ========================================================================== 
+
+
 /* Syntax Highlighting
-   ========================================================================== */
+   ========================================================================== 
 
 pre, code {
   background-color: #f8f8f8;
@@ -143,13 +315,6 @@ pre { padding: 1rem; }
 code { padding: .1rem .3rem; }
 pre code { border: none; }
 
-/* Footer
-   ========================================================================== */
-footer {
-  display: block;
-  margin: 2em 0;
-  text-align: center;
-}
 
 /* Clearfix
    ========================================================================== */

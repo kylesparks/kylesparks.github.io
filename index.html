@@ -2,63 +2,30 @@
 layout: default
 title: Kyle's Chill Blawg
 ---
-<meta name="viewport" content="width=device-width, initial-scale=1">
-  <div class="container"> 
-    <div class="row cf">
-      <div class="column half">
-        <div class="posts">
-          <h2><a href="http://localhost:4000/2014/03/12/welcome-to-jekyll.html">Here is a fun blawg post #1</a></h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in ipsum ultrices nibh gravida cursus. Donec id volutpat nisl. Aenean nec sem id metus pretium vulputate. Integer posuere metus nec viverra ultrices. Donec at est sed diam  lobortis sollicitudin. Nullam accumsan, lectus et facilisis bibendum, magna neque viverra nisi, id lobortis est dui id lorem. Nulla facilisi. Vestibulum sed posuere elit, ac feugiat erat. Morbi vel ultricies nulla. Ut scelerisque  orci eleifend arcu placerat, mattis sollicitudin purus lacinia. Sed eget blandit enim. Duis eget nisl posuere, imperdiet mauris sed, placerat nisl. <a href="http://localhost:4000/2014/03/12/welcome-to-jekyll.html">Read More</a></p>
-        </div>
-      </div>
-    </div>
-    <div class="column half">
-      <div class="posts">
-  	 <h3>Here is a fun blawg post #2</h3>
-  	   <div class="inlaid_img">
-        <img src="http://1-ps.googleusercontent.com/h/www.catgifpage.com/gifs/247.gif.pagespeed.ce.KJ_cZptumN.gif" alt="bedtime coolin'">
-        </div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in ipsum ultrices nibh gravida cursus. Donec id volutpat nisl. Aenean nec sem id metus pretium vulputate. Integer posuere metus nec viverra ultrices. Donec at est sed diamlobortis sollicitudin. Nullam accumsan, lectus et facilisis bibendum, magna neque viverra nisi, id lobortis est dui id lorem. Nulla facilisi. 
-  	 </p>
-    </div>
-    </div>
+
+ <div class="container" id="top">
+  <div class="content"> 
+   {% for post in site.posts %}
+     <div class="row cf">
+       <div class="posts">
+        
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>      
+
+          {{ post.excerpt }}
+        
+       </div>
+     </div>
+   {% endfor %}
   </div>
 
-  <div class="row cf">
-	 <div class="posts">
-	   <h4>Blawg Post #3</h4>
-		  <p>Here is another fun blawg post because Kyle's Chill Blawg is full of important and helpful information for you to use in your life!</p>
-	 </div>
+  <div class="sidebar cf" id="sticker">
+     <img class="sidepic" src="http://1-ps.googleusercontent.com/h/www.catgifpage.com/gifs/247.gif.pagespeed.ce.KJ_cZptumN.gif" alt="trill cat">
+     <ul>
+       <li><b>Home</b></li>
+       <li><a href="../contact.html">About</li>
+       <li><a href="../portfolio.html">Portfolio</a></li>
+       <li><a href="#top">Top of Page</a></li>
 
-  	<div class="posts">
-	 	 <h4>Blawg Post #4</h4>
-	 	 <p>lol like ok ~*~whatever~*~ kyle</p>
-	 </div>
-
-	 <div class="posts">
-		  <h4>Blawg Post #5</h4>
-		  <p>Welcome to Kyle's Chill Blawg, Dawg.</p>
-	 </div>
-  </div>
-
-  <div class="row cf">
-    <div class="posts2">
-      <h4>Blawg Post #6</h4>
-      <p>More blog posts about chill things.</p>
-    </div>
-
-   <div class="posts2">
-      <h4>Blawg Post #7</h4>
-      <p>More blog posts about chill things</p>
-    </div>
-
-    <div class="posts2">
-      <h4>Blawg Post #8</h4>
-      <p>More blog posts about chill things</p>
-    </div>
-
-    <div class="posts2">
-      <h4>Blawg Post #9</h4>
-     <p>More blog posts about chill things</p>
-    </div>
-  </div>
+     </ul>
+  </div> 
+ </div>

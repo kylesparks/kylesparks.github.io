@@ -1,5 +1,4 @@
-name: Your New Jekyll Site
-description: Your Description
+name: Kyle's Chill Blawg
+description: Dawg
 markdown: redcarpet
-permalink: none
-pygments: true
+permalink: /:categories/:title/
