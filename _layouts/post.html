@@ -54,11 +54,11 @@ layout: post
  
     <div class="row button-wrap cf">
          {% if page.previous.url %}
-         <a href="{{ page.previous.url }}" rel="previous" title="{{ page.previous.title }}" class="button prev column half">‹ Previous</a>
+         <span><a href="{{ page.previous.url }}" rel="previous" title="{{ page.previous.title }}" class="button prev column half">‹ Previous</a>
          {% endif %}
          
          {% if page.next.url %}
-       <a href="{{ page.next.url }}" rel="next" title="{{ page.next.title }}" class="button next column half">Next ›</a>
+       <a href="{{ page.next.url }}" rel="next" title="{{ page.next.title }}" class="button next column half">Next ›</a></span>
          {% endif %}
     </div>
 
