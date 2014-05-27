@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Practice & Memory & Writing
-date: 2014.5.14
+date: 2014.05.14
 ---
 
 Malcolm Gladwell’s become a convenient punching bag in recent years. He’s a science writer, so his job is to make very complex concepts sound very simple. But sometimes that leads him to present scientific evidence as anecdotal instead of empirical. 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Interviewing Other People
-date: 2014.5.23
+date: 2014.05.23
 ---
 
 The third edition of Ken Metzler’s Creative Interviewing was published in 1997, so I was skeptical that it could provide my apprenticeship with any real lessons. But surprisingly, Metzler’s text has stayed mostly relevant because its focus rotates around the axis of human relationships, not journalistic conventions. It’s essentially a book about how to turn an interview into an insightful conversation—how to approach a source not as a target for interrogation, but as a sympathetic friend. 
