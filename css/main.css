@@ -162,7 +162,7 @@ blockquote p {
   
 .column.full { width: 100%; }
 .column.two-thirds { width: 66.7%; }
-.column.half { width: 50%; }
+.column.half { width: 49%; }
 .column.third { width: 33.3%; }
 .column.fourth { width: 24.95%; }
 .column.flow-opposite { float: right; }
@@ -273,17 +273,12 @@ padding: 0 2em;
 
 .button.prev {
     display: inline-block;
-/*    position: absolute;
-    margin-left: 11%;*/
     text-align: left;
 }
 
 .button.next {
     display: inline-block;
-/*    position: absolute;
-    right: 30%; */
     text-align: right;
-    background-color: pink;
 }
 
 @media (max-width: 850px) {
