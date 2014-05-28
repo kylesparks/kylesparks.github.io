@@ -8,7 +8,7 @@ I read one of the cooler longreads I'd read in a while Monday night. It had basi
 
 It was awesome. Here is what one of the more exciting passages looked like while I was reading it:
 
-![longread pic](/_imgs/longread.jpeg)
+![longread pic](/images/longread.jpeg)
 
 Hopefully that helps illustrate what has been one of the core tensions in my writing-based UX Apprenticeship 8th Light. I'm learning to think about the design of words, but in my own real life I go to great lengths to avoid design when reading words. 
 
