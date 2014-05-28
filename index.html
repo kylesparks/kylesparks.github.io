@@ -3,29 +3,24 @@ layout: default
 title: Kyle's Chill Blawg
 ---
 
- <div class="container" id="top">
+<div class="container" id="top">
   <div class="content"> 
-   {% for post in site.posts %}
-     <div class="row cf">
-       <div class="posts">
-        
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>      
-
-          {{ post.excerpt }}
-        
-       </div>
-     </div>
-   {% endfor %}
+    {% for post in site.posts %}
+    <div class="row cf">
+      <div class="posts">
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        {{ post.excerpt }}
+      </div>
+    </div>
+    {% endfor %}
   </div>
 
   <div class="sidebar cf" id="sticker">
-     <img class="sidepic" src="http://1-ps.googleusercontent.com/h/www.catgifpage.com/gifs/247.gif.pagespeed.ce.KJ_cZptumN.gif" alt="trill cat">
-     <ul>
-       <li><b>Home</b></li>
-       <li><a href="../contact.html">About</li>
-       <li><a href="../portfolio.html">Portfolio</a></li>
-       <li><a href="#top">Top of Page</a></li>
-
-     </ul>
-  </div> 
- </div>
+    <ul>
+      <li><b>Home</b></li>
+      <li><a href="../contact.html">About</li>
+      <li><a href="../portfolio.html">Portfolio</a></li>
+      <li><a href="#top">Top of Page</a></li>
+    </ul>
+  </div>
+</div>
