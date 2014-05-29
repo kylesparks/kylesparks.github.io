@@ -4,9 +4,9 @@ title: Blindly Picking Out Fonts
 date: 2014.04.03
 ---
 
-I finished reading Ellen Lupton’s Thinking With Type as part of my apprenticeship about one day before reading that a 14-year-old was proposing to save the U.S. government millions of dollars by changing their font from Times New Roman to the thinner Garamond (via this story on CNN).
+I finished reading Ellen Lupton’s Thinking With Type as part of my apprenticeship about one day before reading that a 14-year-old was proposing to save the U.S. government millions of dollars by changing their font from Times New Roman to the thinner Garamond (via this story on [CNN](http://www.cnn.com/2014/03/27/living/student-money-saving-typeface-garamond-schools/index.html?hpt=hp_t2)).
 
-Suvir Mirchandani is a sixth-grade overachiever student in the Pittsburgh area who spent his science fair project looking for ways to use computer science to promote environmental sustainability in his school. And as it turns out, Mirchandani says, "Ink is two times more expensive than French perfume by volume."
+Suvir Mirchandani is a sixth-grade <del>overachiever</del> student in the Pittsburgh area who spent his science fair project looking for ways to use computer science to promote environmental sustainability in his school. And as it turns out, Mirchandani says, "Ink is two times more expensive than French perfume by volume."
 
 So he weighed some fonts with APFill Ink Coverage Software, and also by printing them onto cardstock, cutting out the letters, and weighing them on a scale. That process sounds really adorable, but it was also effective. He estimates that by switching to the lighter Garamond font, his school could save as much as $21,000 each year on ink. Using the same math, the federal government could cut about $136 million per year. 
 
