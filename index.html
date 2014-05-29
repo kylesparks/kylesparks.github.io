@@ -4,6 +4,15 @@ title: Kyle's Chill Blawg
 ---
 
 <div class="container" id="top">
+  <div class="sidebar cf" id="sticker">
+    <ul>
+      <li><b>Home</b></li>
+      <li><a href="../contact.html">About</a></li>
+      <li><a href="../portfolio.html">Portfolio</a></li>
+      <li><a href="#top">Top of Page</a></li>
+    </ul>
+  </div>
+
   <div class="content"> 
     {% for post in site.posts %}
     <div class="row cf">
@@ -13,14 +22,5 @@ title: Kyle's Chill Blawg
       </div>
     </div>
     {% endfor %}
-  </div>
-
-  <div class="sidebar cf" id="sticker">
-    <ul>
-      <li><b>Home</b></li>
-      <li><a href="../contact.html">About</li>
-      <li><a href="../portfolio.html">Portfolio</a></li>
-      <li><a href="#top">Top of Page</a></li>
-    </ul>
   </div>
 </div>

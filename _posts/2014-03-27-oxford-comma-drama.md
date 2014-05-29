@@ -8,11 +8,11 @@ In my last post, I briefly touched on the debate over when we decide to simplify
 
 But the evolutionary arc isn’t so clear with the Oxford comma. The AP Style Guide contends that Oxford commas are unnecessary and should be eliminated in order to save space. I disagree.
 
-As an exercise in grammatical anthropology, this conversation should start at the comma’s origin. According to Lynne Truss’ Eats, Shoots & Leaves, the earliest known punctuation is credited to Aristophanes around 200 BC. Aristophanes employed a three-tiered system of notation that dictated the length of pause an orator should employ at each break.
+As an exercise in grammatical anthropology, this conversation should start at the comma’s origin. According to Lynne Truss’ [Eats, Shoots & Leaves](http://www.amazon.com/Eats-Shoots-Leaves-Tolerance-Punctuation/dp/1592402038), the earliest known punctuation is credited to Aristophanes around 200 BC. Aristophanes employed a three-tiered system of notation that dictated the length of pause an orator should employ at each break.
 
 We see this carried over into modern musical notation. Musicians place “luftpauses” at the tops of their lines of sheet music at the places where they should take breaths or restart a bow stroke. In the earliest days of writing when language was shared almost exclusively through oration, commas served an identical purpose.
 
-And according to a recent column on Lit Reactor, the comma as we’ve come to know it was first inserted into religious text around A.D. 400 when St. Augustine became frustrated with the inconsistent way people had taken to reading the Bible out loud.
+And according to a recent column on [Lit Reactor](http://litreactor.com/columns/the-eternal-deul-a-history-of-commas), the comma as we’ve come to know it was first inserted into religious text around A.D. 400 when St. Augustine became frustrated with the inconsistent way people had taken to reading the Bible out loud.
 
 But it wasn’t until printing was popularized in the 14th and 15th centuries that punctuation really began to flourish. That’s when a guy named Aldus Manutius came around in the late 1400’s and really turned the game on its head. According to Eats, Shoots & Leaves, Manutius created not only the italic typeface, but also the semicolon! Chill Bro Alert is in full effect.
 

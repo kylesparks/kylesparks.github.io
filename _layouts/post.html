@@ -27,9 +27,18 @@ layout: post
  
   <body>
 
- 	{% include header.html %}
+ 	{% include post-header.html %}
 
   <div class="container" id="top">
+   <div class="sidebar cf" id="sticker">
+     <ul>
+       <li><a href="/">Home</a></li>
+       <li><a href="../contact.html">About</a></li>
+       <li><a href="../portfolio.html">Portfolio</a></li>
+       <li><a href="#top">Top of Page</a></li>
+     </ul>
+   </div> 
+ 
    <div class="content cf">
     <div class="row cf">
      <div class="posts">
@@ -42,15 +51,6 @@ layout: post
     </div>
    </div>
 
-   <div class="sidebar cf" id="sticker">
-     <ul>
-       <li><a href="/">Home</a></li>
-       <li><a href="../contact.html">About</li>
-       <li><a href="../portfolio.html">Portfolio</a></li>
-       <li><a href="#top">Top of Page</a></li>
-     </ul>
-   </div> 
- 
     <div class="row button-wrap cf">
          {% if page.previous.url %}
           <a href="{{ page.previous.url }}" rel="previous" title="{{ page.previous.title }}" class="button prev column half">‹ Previous</a>
