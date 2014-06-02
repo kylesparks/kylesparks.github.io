@@ -31,36 +31,37 @@ font-weight: 400;
  
 
 .container {
-  margin: 0 auto;
   max-width: 1400px;
   padding-bottom: 2em;
   width: 90%;
+  margin: 0 auto;
 }
 
 .content {
-  width: 70%;
   float: left;
-  margin: 0 0 0 5%;
   max-width: 33em;
 }
 
-.sticky-wrapper {
-  float: right;
-  width: 25%;
-}
-
 .sidebar {
-  font-size: 80%;
-  width: 280px;
-  padding: 2em 0 2em 2em;
-  float: left;
+  background-color: rgb(20, 51, 63);
+  font-size: 1em;
+  width: 100%;
+  float: none;
+  display: inline-block;
   text-align: left;
-  max-width: 15em;
+  margin-bottom: 75px;
 }
 
-.sidepic {
-  opacity: 0.2;
+.sidebar li {
+  display: inline-block;
+  margin: 0 auto;
+  width: 32%;
+  text-align: center;
+}
+
+.sidebar ul {
   width: 100%;
+  margin: 0 auto;
 }
 
 ul {
@@ -77,6 +78,10 @@ a:hover {
   text-decoration: underline; 
 }
 
+.active {
+  color: white;
+}
+
 .contactgif {
   width: 50%;
   margin: 0 25%;
@@ -85,7 +90,14 @@ a:hover {
 
 .centertext {
   text-align: center;
-  margin: 0 0 3em 0;
+  margin: 0 0 75px 0;
+}
+
+.container li {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  float: left;
 }
 
 /* Header
@@ -112,7 +124,6 @@ a:hover {
   font-style: normal;
   font-weight: 600;
   font-size: 1.25em;
-  margin-bottom: 2.5em;
   min-height: 440px;
   position: relative;
 }
@@ -141,6 +152,7 @@ a:hover {
   margin: 1em 0 0.25em 0;
   padding: 0 1em;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .header h3 {
@@ -154,14 +166,14 @@ a:hover {
 
 .post-header h1 {
   background-color: rgb(20, 51, 63);
-  font-size: 1.3em;
+  font-size: 1em;
   font-family: "brandon-grotesque",sans-serif;
   font-style: normal;
   font-weight: 900;
   letter-spacing: 2px;
-  text-transform: lowercase;
-  margin: 0 0 50px 0;
-  padding: 10px 0 15px 5%;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0 0 5px 5%;
 }
 
 .post-header a {
@@ -178,8 +190,6 @@ footer {
   clear: both;
   width: 100%;
   font-size: 60%;
-  background-color: rgb(231, 221, 203);
-  border-top: solid rgb(3, 54, 73) 1em;
 }
 
 
@@ -213,7 +223,7 @@ blockquote p {
 .column.flow-opposite { float: right; }
 
 
-@media (max-width: 850px) {
+/*@media (max-width: 850px) {
   .header {
     margin-bottom: 0;
   }
@@ -238,50 +248,11 @@ blockquote p {
     margin: 0 5%;
   }
 
-  .sticky-wrapper {
-    float: none;
-    width: 100%;
-    margin-bottom: 40px;
-  }
-
-  .sticky-wrapper li {
-    display: inline-block;
-    margin: 0 auto;
-    width: 22.5%;
-    text-align: left;
-  }
-
-  .sidebar {
-    background-color: rgb(20, 51, 63);
-    font-size: 1em;
-    float: none;
-    padding: 0em;
-    width: 100%;
-    max-width: none;
-  }
-
-  .sidebar ul {
-    width: 90%;
-    margin: 0 auto;
-  }
-
-  div#sticker {
-    right: 0;
-  }
-
-  b {
-    color: white;
-  }
-
   .post-header h1 {
     margin: 0;
   }
-
- /* li {
-    text-align: left;
-  }*/
 }
-
+*/
 
 /* Posts
    ========================================================================== */
@@ -317,7 +288,6 @@ li {
   font-size: 80%/1.5em;
   list-style-type: none;
   text-align: center;
-  padding-top: .5em;
 }
 
 .posts {
@@ -341,9 +311,6 @@ li {
 
 .button-wrap {
   float: left;
-  margin: 0 0 0 5%;
-  padding: 0 2em;
-  width: 70%;
   width: 90%;
 }
 
