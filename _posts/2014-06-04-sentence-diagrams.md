@@ -3,115 +3,117 @@ layout: post
 title: Sentence Diagrams
 date: 2014.06.04
 ---
-<div class="content">
-<div class="postbody">
-<p>
-	Last week <a href="http://www.avclub.com/article/heres-poster-famous-action-movie-quotes-sentence-d-204729">The A.V. Club wrote about</a> a poster of famous movie quotes set into sentence diagrams, which served as a reminder to me that sentence diagramming is a real thing that most of us did in order to learn parts of speech. 
-</p>
 
-<p>
-	Sentence diagramming as a learning exercise struck me as arcane back when I was doing it, and even now I think it highlights a tension in the way we use language. I’ve definitely written about this before, but the tension lies in whether we approach language as having top-down or bottom-up qualities. Does a word carry meaning because of what it says in the dictionary, or is a word in the dictionary because of how it’s used in conversation? What comes first, the chicken or the egg? 
-</p>
+<div class="row cf">
+  <div class="posts">
+    <p>
+    	Last week <a href="http://www.avclub.com/article/heres-poster-famous-action-movie-quotes-sentence-d-204729">The A.V. Club wrote about</a> a poster of famous movie quotes set into sentence diagrams, which served as a reminder to me that sentence diagramming is a real thing that most of us did in order to learn parts of speech. 
+    </p>
 
-<p>
-Recent history suggests the former—spoken language is changing faster than written language, and written language is progressing to reflect more colloquial tones. Regardless of how you feel about Blogging as a concept, it’s the zeitgeist.
-</p>
+    <p>
+    	Sentence diagramming as a learning exercise struck me as arcane back when I was doing it, and even now I think it highlights a tension in the way we use language. I’ve definitely written about this before, but the tension lies in whether we approach language as having top-down or bottom-up qualities. Does a word carry meaning because of what it says in the dictionary, or is a word in the dictionary because of how it’s used in conversation? What comes first, the chicken or the egg? 
+    </p>
 
-<p>
-So there’s an inherent gimmickry (or snobbery) in trying to plug modern language into arcane English tools. But like all other things, the Internet makes it easy! There are lessons available on the nit-picky parts of grammar that you can read through, but the basics of sentence diagramming are simple <a href="http://www.wikihow.com/Diagram-Sentences">this tutorial is a good place to get started</a>. You begin by isolating the subject and verb. Draw a long stick underneath both words, then another long stick that intersects that line between the two words. Find the direct object (that is, the thing receiving the verb), and put that to the right of the verb with a stick between them. 
+    <p>
+    Recent history suggests the former—spoken language is changing faster than written language, and written language is progressing to reflect more colloquial tones. Regardless of how you feel about Blogging as a concept, it’s the zeitgeist.
+    </p>
 
-<p>
-There are instructions for every part of speech, but the Internet has already made most of this information superfluous. I found <a href="http://1aiway.com/nlp4net/services/enparser/default.aspx?text=Nothing+has+changed">this sentence diagram tool</a> that will diagram whatever sentence you plug into it. You can even hover over a word on the diagram to see which properties the program is assuming that give it its position on the tree. From there you can work backward and figure out how these silly things work. So let’s just get into it. Let’s plug in some sentences and see what happens! Wheeee!
-</p>
+    <p>
+    So there’s an inherent gimmickry (or snobbery) in trying to plug modern language into arcane English tools. But like all other things, the Internet makes it easy! There are lessons available on the nit-picky parts of grammar that you can read through, but the basics of sentence diagramming are simple <a href="http://www.wikihow.com/Diagram-Sentences">this tutorial is a good place to get started</a>. You begin by isolating the subject and verb. Draw a long stick underneath both words, then another long stick that intersects that line between the two words. Find the direct object (that is, the thing receiving the verb), and put that to the right of the verb with a stick between them. 
 
-<p>
-I don’t watch many movies, but I’ve been revisiting some Built to Spill records this week, so I’ll start by plugging in a lyric of theirs. From <a href="https://www.youtube.com/watch?v=6omZ5GsuGrI&feature=kp">“Car”</a>:
-</p>
-</div>
+    <p>
+    There are instructions for every part of speech, but the Internet has already made most of this information superfluous. I found <a href="http://1aiway.com/nlp4net/services/enparser/default.aspx?text=Nothing+has+changed">this sentence diagram tool</a> that will diagram whatever sentence you plug into it. You can even hover over a word on the diagram to see which properties the program is assuming that give it its position on the tree. From there you can work backward and figure out how these silly things work. So let’s just get into it. Let’s plug in some sentences and see what happens! Wheeee!
+    </p>
 
-<img class="postimage" src="/images/general_specifics.png">
+    <p>
+    I don’t watch many movies, but I’ve been revisiting some Built to Spill records this week, so I’ll start by plugging in a lyric of theirs. From <a href="https://www.youtube.com/watch?v=6omZ5GsuGrI&feature=kp">“Car”</a>:
+    </p>
+    </div>
 
-<div class="postbody">
-<div class="captiontext">
-[I want specifics on the general idea]
-</div>
+    <img class="postimage" src="/images/general_specifics.png">
 
-<p>
-That’s a pretty straightforward sentence, and one I could have easily diagrammed on my own. Subject, verb, direct object, and a preposition to add onto the direct object.
-</p>
+    <div class="postbody">
+    <div class="captiontext">
+    [I want specifics on the general idea]
+    </div>
 
-<p>
-But Built to Spill’s singer, Doug Martsch, is also known for more aggressive wordplay, so let’s try a more challenging one. From <a href="https://www.youtube.com/watch?v=EQ7EPLmh-0c">“Big Dipper”</a>:
-</p>
-</div>
+    <p>
+    That’s a pretty straightforward sentence, and one I could have easily diagrammed on my own. Subject, verb, direct object, and a preposition to add onto the direct object.
+    </p>
 
-<img class="postimage" src="/images/jack_thought.png">
+    <p>
+    But Built to Spill’s singer, Doug Martsch, is also known for more aggressive wordplay, so let’s try a more challenging one. From <a href="https://www.youtube.com/watch?v=EQ7EPLmh-0c">“Big Dipper”</a>:
+    </p>
+    </div>
 
-<div class="postbody">
-<div class="captiontext">
-[Jack thought it twice and thought that that had made it true]
-</div>
+    <img class="postimage" src="/images/jack_thought.png">
 
-<p>
-I definitely needed help with that one. I plugged it into the generator, but the generator kept mistaking “thought” for the second subject. So I plugged in the assumed second subject (Jack), and then just had to choose whether “true” was an adverb for “had made” or an adjective for “it.” I believe it’s the second choice, and so I think the above diagram is accurate.
-</p>
+    <div class="postbody">
+    <div class="captiontext">
+    [Jack thought it twice and thought that that had made it true]
+    </div>
 
-<p>
-But ok, let’s push a little harder to see how the diagrams respond to extremely modern language. Staying with the theme of “bands Kyle listened to a lot while in college,” I really like the following lyric from Los Campesinos!’s <a href="https://www.youtube.com/watch?v=E7vnIMMkgGk&feature=kp">“Don’t Tell Me To Do The Math(s)”</a>: “I’m stitching up each one of your pockets, so when we are together you’ll maybe look a little less bored.” 
-</p>
+    <p>
+    I definitely needed help with that one. I plugged it into the generator, but the generator kept mistaking “thought” for the second subject. So I plugged in the assumed second subject (Jack), and then just had to choose whether “true” was an adverb for “had made” or an adjective for “it.” I believe it’s the second choice, and so I think the above diagram is accurate.
+    </p>
 
-<p>
-On the surface it doesn’t appear terribly complicated, just very wordy. But it takes some liberties with syntax and extended modifiers that I think might have defeated both the machine and myself. Of the six options generated by the machine, these two made the most sense to me:
-</p>
-</div>
+    <p>
+    But ok, let’s push a little harder to see how the diagrams respond to extremely modern language. Staying with the theme of “bands Kyle listened to a lot while in college,” I really like the following lyric from Los Campesinos!’s <a href="https://www.youtube.com/watch?v=E7vnIMMkgGk&feature=kp">“Don’t Tell Me To Do The Math(s)”</a>: “I’m stitching up each one of your pockets, so when we are together you’ll maybe look a little less bored.” 
+    </p>
 
-<img class="postimage" src="/images/stitching_1.png">
+    <p>
+    On the surface it doesn’t appear terribly complicated, just very wordy. But it takes some liberties with syntax and extended modifiers that I think might have defeated both the machine and myself. Of the six options generated by the machine, these two made the most sense to me:
+    </p>
+    </div>
 
-<img class="postimage" src="/images/stitching_2.png">
+    <img class="postimage" src="/images/stitching_1.png">
 
-<div class="postbody">
-<div class="captiontext">
-[I'm stitching up each one of your pockets, so when we are together you'll maybe look a little less bored]
-</div>
+    <img class="postimage" src="/images/stitching_2.png">
 
-<p>
-The biggest difference between these two diagrams is the way they treat “when we are together.” 
-</p>
+    <div class="postbody">
+    <div class="captiontext">
+    [I'm stitching up each one of your pockets, so when we are together you'll maybe look a little less bored]
+    </div>
 
-<p>
-The first diagram treats it as a noun clause modifying the subject complement noun, “you,” which is then triggered by the adjective modifier, “together.” It completely isolates the specific context of “you,” to clarify that the person being referenced is very specifically the “you” who appears when we are together. But it mistakes the actual phrase that "you'll look" for the subject "we," as if to say that when you are this person, we will look less bored as a unit. Which I guess is still accurate.
-</p>
+    <p>
+    The biggest difference between these two diagrams is the way they treat “when we are together.” 
+    </p>
 
-<p>
-But the second diagram treats it as an adverb clause, which is to say it’s making a statement about the way you look while you’re together, not the human you embody while you’re together. I could hear an argument for either side, but I prefer this option.
-</p>
+    <p>
+    The first diagram treats it as a noun clause modifying the subject complement noun, “you,” which is then triggered by the adjective modifier, “together.” It completely isolates the specific context of “you,” to clarify that the person being referenced is very specifically the “you” who appears when we are together. But it mistakes the actual phrase that "you'll look" for the subject "we," as if to say that when you are this person, we will look less bored as a unit. Which I guess is still accurate.
+    </p>
 
-<p>
-However, both diagrams did something I didn’t like: they treated “up” as a preposition, whereas I’d like to think it’s actually just modifying the verb “stitching.” It also isolates “of your pockets” as another prepositional phrase, whereas I actually think “pockets” is the direct object. Pockets are the things being stitched, aren’t they?
-</p>
+    <p>
+    But the second diagram treats it as an adverb clause, which is to say it’s making a statement about the way you look while you’re together, not the human you embody while you’re together. I could hear an argument for either side, but I prefer this option.
+    </p>
 
-<p>
-The generator did not provide an option that satisfied either of those qualifications though, so I went ahead and tried my hand at it:
-</p>
-</div>
+    <p>
+    However, both diagrams did something I didn’t like: they treated “up” as a preposition, whereas I’d like to think it’s actually just modifying the verb “stitching.” It also isolates “of your pockets” as another prepositional phrase, whereas I actually think “pockets” is the direct object. Pockets are the things being stitched, aren’t they?
+    </p>
 
-<img class="postimage" src="/images/stitching_3.jpg">
+    <p>
+    The generator did not provide an option that satisfied either of those qualifications though, so I went ahead and tried my hand at it:
+    </p>
+    </div>
 
-<div class="postbody">
-<p>
-How’s that work? Haha! I still don’t know! Especially the way I treated “each one of” seems questionable. But thanks for tolerating my penmanship!
-</p>
+    <img class="postimage" src="/images/stitching_3.jpg">
 
-<p>
-While constructing that diagram, I couldn’t help but notice a certain “found poetry” element to this. You can really feel the speaker’s desperation grow as the sentence cascades from the simple “I’m stitching pockets” to the reason, “you’ll maybe look a little less bored,” before finally reaching the actual seams of the arrangement, “when we are together.” Even the way “bored” just tends to drip down to “less,” and then “a little”—it illustrates the way the speaker is clinging onto some abstract notion of victory that’s slowly tumbling away.
-</p>
+    <div class="postbody">
+    <p>
+    How’s that work? Haha! I still don’t know! Especially the way I treated “each one of” seems questionable. But thanks for tolerating my penmanship!
+    </p>
 
-<p>
-Anyway, I think it’s safe to say this exercise has confirmed my suspicion that sentence diagrams are kind of silly. They’re certainly still helpful to anyone learning the basic parts of speech, but the things that make English such a great language are the things that can’t be stuck on a tree—they’re the things to be plucked from trees and swung wildly like toy swords. They’re the things that force diagrams to bend over backward to illustrate the multi-layered complexity hidden inside these sentences. They let us write sentences that I initially think are funny, only to later reveal themselves to be terribly desperate pleas for acceptance.
-</p>
+    <p>
+    While constructing that diagram, I couldn’t help but notice a certain “found poetry” element to this. You can really feel the speaker’s desperation grow as the sentence cascades from the simple “I’m stitching pockets” to the reason, “you’ll maybe look a little less bored,” before finally reaching the actual seams of the arrangement, “when we are together.” Even the way “bored” just tends to drip down to “less,” and then “a little”—it illustrates the way the speaker is clinging onto some abstract notion of victory that’s slowly tumbling away.
+    </p>
 
-<p>
-So put a direct object inside of a prepositional phrase; make your subject a whole noun clause; I don’t care. Just make sure it reads well. If nothing else, just put it in a catchy pop song. That seems to work just fine, too.
-</p>
-</div>
+    <p>
+    Anyway, I think it’s safe to say this exercise has confirmed my suspicion that sentence diagrams are kind of silly. They’re certainly still helpful to anyone learning the basic parts of speech, but the things that make English such a great language are the things that can’t be stuck on a tree—they’re the things to be plucked from trees and swung wildly like toy swords. They’re the things that force diagrams to bend over backward to illustrate the multi-layered complexity hidden inside these sentences. They let us write sentences that I initially think are funny, only to later reveal themselves to be terribly desperate pleas for acceptance.
+    </p>
+
+    <p>
+    So put a direct object inside of a prepositional phrase; make your subject a whole noun clause; I don’t care. Just make sure it reads well. If nothing else, just put it in a catchy pop song. That seems to work just fine, too.
+    </p>
+
+  </div>
 </div>
