@@ -1,4 +1,4 @@
 name: Kyle's Chill Blawg
 description: Dawg
-markdown: redcarpet
+markdown: kramdown
 permalink: /:categories/:title/
