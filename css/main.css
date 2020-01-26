@@ -7,71 +7,52 @@
   box-sizing: border-box;
 }
 
-html { font-size: 100%; }
+html { font-size: 110%; }
 
 body { 
   -webkit-font-smoothing: antialiased;
-  font-family: "chaparral-pro",sans-serif;
-font-style: normal;
-font-weight: 400;
+  font-family: "MrsEavesRomanLiningRegular";
+  font-style: normal;
+  font-weight: 400;
 }
 
 /* Small screens (default) */
-  html { font-size: 100%; }
+  html { font-size: 110%; }
 
 /* Medium screens (640px) */
 @media (min-width: 40rem) {
-  html { font-size: 125%; }
+  html { font-size: 110%; }
 }
  
 /* Large screens (1024px) */
 @media (min-width: 64rem) { 
-  html { font-size: 150%; }
+  html { font-size: 110%; }
 }
  
 
 .container {
-  max-width: 1400px;
-  padding-bottom: 2em;
-  width: 90%;
+  max-width: 700px;
+  width: 100%;
   margin: 0 auto;
 }
 
 .content {
   float: left;
-  max-width: 33em;
 }
 
-.sidebar {
-  background-color: rgb(20, 51, 63);
-  font-size: 1em;
-  width: 100%;
-  float: none;
-  display: inline-block;
-  text-align: left;
-  margin-bottom: 75px;
-}
-
-.sidebar li {
-  display: inline-block;
-  margin: 0 auto;
-  width: 32%;
-  text-align: center;
-}
-
-.sidebar ul {
-  width: 100%;
-  margin: 0 auto;
+div.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 }
 
 ul {
-  text-align: center;
   padding: 0em;
  }
 
 a {
-  color: #00C16C;
-  text-decoration: bold;
+  color: rgb(20, 51, 63);
+  text-decoration: underline;
 }
 
 a:hover { 
@@ -88,6 +69,10 @@ a:hover {
   border: solid black 1px;
 }
 
+.aboutimage img {
+  margin: 2em 2em;
+}
+
 .centertext {
   text-align: center;
   margin: 0 0 75px 0;
@@ -96,105 +81,85 @@ a:hover {
 .container li {
   width: 100%;
   margin: 0 auto;
-  text-align: center;
   float: left;
 }
 
 /* Header
    ========================================================================== */
 
-.tint {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(20,52,63,0.8);
-  z-index: 1;
-}
-
 .header {
-  background:  rgb(20, 51, 63);
-  background-image: url("/images/kitty.gif");
+  background-color: rgba(236,236,236,0.8);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+  position: relative;
   float: left;
   font-style: normal;
   font-weight: 600;
-  font-size: 1.25em;
-  min-height: 440px;
-  position: relative;
+  font-size: 1em;
+  margin: 0 0 2em 0;
 }
 
 .header .title {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 28%;
+  color: rgb(20, 51, 63);
   z-index: 2;
-}
-
+  font-family: "brandon-grotesque",sans-serif;
+  position: relative;
+  float: left;
+  margin: 2em 0;
+  }
+  
 .header a {
   display: block;
   text-decoration: none;
 }
 
 .header h1 {
-  color: #00C16C;
-  font-family: "brandon-grotesque",sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 1.3em;
+  font-size: 1.2em;
   letter-spacing: 2px;
-  margin: 1em 0 0.25em 0;
-  padding: 0 1em;
-  text-align: center;
-  text-transform: uppercase;
+  margin: 0 0 0 1em;
+  text-align: left;
 }
 
 .header h3 {
-  color: #fff;
-  font-size: 0.8em;
   font-weight: 300;
-  margin: 0 0 1.8em 0;
-  padding: 0;
-  text-align: center;
+  font-size: 1.2em;
+  margin: 0 1em 0 0;
+  text-align: right;
 }
 
-.post-header h1 {
-  background-color: rgb(20, 51, 63);
-  font-size: 1em;
-  font-family: "brandon-grotesque",sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  margin: 0;
-  padding: 0 0 5px 5%;
-}
-
-.post-header a {
-  text-decoration: none;
-}
 
 
 /* Footer
    ========================================================================== */
 footer {
+  background-color: rgba(236,236,236,0.8);
   display: block;
   text-align: center;
   float: left;
   clear: both;
   width: 100%;
-  font-size: 60%;
+  margin: 2em 0 0 0;
 }
 
+.footer container {
+  margin: 10em;
+}
+
+.footer object {
+  margin: 2em 2em;
+  float: left;
+}
 
 /* Typography
    ========================================================================== */
+   
+h4 {
+  margin-bottom: 0em;
+}
 
 /* Blockquote
    ========================================================================== */
@@ -223,36 +188,6 @@ blockquote p {
 .column.flow-opposite { float: right; }
 
 
-/*@media (max-width: 850px) {
-  .header {
-    margin-bottom: 0;
-  }
-
-  h1 {
-    width: 100%;
-    margin: 0 0 .5em 0;
-    padding: 0 5%;
-  }
-
-  .container {
-    width: 100%;
-  }
-
-  .posts {
-    display: block;
-  }
-
-  .content {
-    float: none;
-    width: 90%;
-    margin: 0 5%;
-  }
-
-  .post-header h1 {
-    margin: 0;
-  }
-}
-*/
 
 /* Posts
    ========================================================================== */
@@ -263,6 +198,8 @@ blockquote p {
   padding: 0;
   font-size: 1.5em;
   margin: 0 auto;
+  margin-bottom: 0.5em;
+  margin-top: 1.5em;
 }
 
 .posts h2 a {
@@ -276,25 +213,25 @@ blockquote p {
 
 .posts h3 {
   text-align: left;
-  padding: .5em .5em 0 .5em;
+  padding: .5em 0;
   font-size: 130%;
 }
 
 p {
-  font-size: 100%;
+  font-size: 110%;
+  margin-top: 0em;
 }
 
 li {
-  font-size: 80%/1.5em;
+  font-size: 100%/1.5em;
   list-style-type: none;
-  text-align: center;
 }
 
 .posts {
   display: block;
   float: left;
   padding: 0;
-  margin-bottom: 100px;
+  margin-bottom: 2em;
 }
 
 .inlaid_img {
@@ -355,24 +292,21 @@ li {
   text-align: center;
 }
 
+.post-header h1 {
+  background-color: rgb(20, 51, 63);
+  font-size: 1em;
+  font-family: "brandon-grotesque",sans-serif;
+  font-style: normal;
+  font-weight: 900;
+}
+
+
 /* Sidebar 
    ========================================================================== 
 
 
 /* Syntax Highlighting
    ========================================================================== 
-
-pre, code {
-  background-color: #f8f8f8;
-  border: 1px solid #ddd;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-}
-
-pre { padding: 1rem; }
-code { padding: .1rem .3rem; }
-pre code { border: none; }
 
 
 /* Clearfix
