@@ -1,0 +1,16 @@
+current directory: /Users/kylesparks/Documents/8thLight/8thLightProjects/kylesparks.github.io/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/kylesparks/.rbenv/versions/2.7.1/bin/ruby -I /Users/kylesparks/.rbenv/versions/2.7.1/lib/ruby/2.7.0 -r ./siteconf20200822-49438-15ujf57.rb extconf.rb
+creating Makefile
+
+current directory: /Users/kylesparks/Documents/8thLight/8thLightProjects/kylesparks.github.io/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" clean
+
+current directory: /Users/kylesparks/Documents/8thLight/8thLightProjects/kylesparks.github.io/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR="
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+
+current directory: /Users/kylesparks/Documents/8thLight/8thLightProjects/kylesparks.github.io/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20200822-49438-2pgfp3
