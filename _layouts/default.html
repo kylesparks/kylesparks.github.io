@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>kyle sparks | p chill bro.</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/syntax.css">
+    <link rel="stylesheet" href="/css/main.css">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="/js/jquery.sticky.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("#sticker").sticky({topSpacing:0});
+      });
+    </script>
+
+    <script type="text/javascript" src="//use.typekit.net/lcj5mix.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    
+    <link rel="icon" href="/images/namaste.gif">
+
+  </head>
+  <body>
+
+    {% include header.html %}
+
+    {{ content }}
+   
+    {% include footer.html %} 
+  </body>
+</html>
