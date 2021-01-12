@@ -11,7 +11,7 @@ html { font-size: 110%; }
 
 body { 
   -webkit-font-smoothing: antialiased;
-  font-family: "MrsEavesRomanLiningRegular";
+  font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
   font-style: normal;
   font-weight: 400;
 }
@@ -48,6 +48,7 @@ div.sticky {
 
 ul {
   padding: 0em;
+  margin-bottom: 3em;
  }
 
 a {
